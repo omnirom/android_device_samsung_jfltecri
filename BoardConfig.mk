@@ -20,16 +20,14 @@
 # definition file).
 #
 
-# inherit from common D2
--include device/samsung/d2-common/BoardConfigCommon.mk
+# inherit from common JF
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2r530/BoardConfigVendor.mk
+-include vendor/samsung/jflteusc/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2cri
+TARGET_OTA_ASSERT_DEVICE := jfltecri
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2cri_defconfig
-
-
+TARGET_KERNEL_CONFIG    := jf_cri_defconfig
