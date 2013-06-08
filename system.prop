@@ -6,6 +6,7 @@ rild.libargs=-d /dev/smd0
 
 ro.cdma.home.operator.numeric=310090
 ro.cdma.home.operator.alpha=Cricket
+ro.gps.set_privacy=1
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
 
